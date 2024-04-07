@@ -1,12 +1,11 @@
 import os
 import sqlite3
 import av
+import cv2
+import supervision as sv
 from ultralytics import YOLO
-import numpy as np
 from collections import defaultdict
 from collections import deque
-import supervision as sv
-import cv2
 from create_database import create_table, insert_data
 
 
