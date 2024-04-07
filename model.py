@@ -152,7 +152,7 @@ def callback(frame):
     print(7)
     
     # Save the annotated frame to an image file
-    cv2.imwrite('annotated_frame.jpg', annotated_frame)
+    # cv2.imwrite('annotated_frame.jpg', annotated_frame)
     print(8)
     return av.VideoFrame.from_ndarray(annotated_frame, format="rgb24")
 
